@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    margin: 0;
+}
+
+.wrapper {}
+
+.content {}
+
+.body {
+    margin: 0 auto;
+}
+
+.body__poem {}
+
+.body__poem-title {}
+
+.body__poem-text {
+
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: large;
+    display: inline-block;
+    background-color: aqua;
+
+
+}
+
+.img__wrap {}
+
+.img__wrap-picture {}
