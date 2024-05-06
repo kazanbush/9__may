@@ -4,34 +4,99 @@
 
 html,
 body {
-    max-width: 100%;
+    width: 100%;
     margin: 0;
+    background: url(/img/1669911906_kartinkin-net-p-staraya-bumaga-tekstura-krasivo-1.jpg) no-repeat;
 }
 
-.wrapper {}
+.wrapper {
+    width: 100%;
+}
 
-.content {}
+.content {
+    max-width: 100%;
+}
 
 .body {
     margin: 0 auto;
 }
 
-.body__poem {}
+.body__title {
 
-.body__poem-title {}
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    animation-name: war;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+.body__poem {
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    transform: translateX(650px);
+    animation-name: poem;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    background: url(/img/073254_1392697974.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 .body__poem-text {
 
     font-family: "Spectral", serif;
     font-weight: 200;
     font-style: normal;
-    font-size: large;
-    display: inline-block;
-    background-color: aqua;
+    font-size: 30px;
+    margin-top: 200px;
+    color: beige;
+}
 
+.img__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.picture {
 
 }
 
-.img__wrap {}
+@keyframes war {
 
-.img__wrap-picture {}
+from {
+margin-left: 50%;
+width: 300%;
+}
+
+to {
+margin-left: 0%;
+width: 100%;
+}
+
+}
+
+@keyframes poem {
+
+    from {
+    margin-top: 500%;
+    }
+
+    to {
+    margin-bottom: 0%;
+    }
+}
+
+
+  
