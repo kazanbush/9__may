@@ -6,7 +6,7 @@ html,
 body {
     width: 100%;
     margin: 0;
-    background: url(/img/1669911906_kartinkin-net-p-staraya-bumaga-tekstura-krasivo-1.jpg) no-repeat;
+    background: url(../img/1669911906_kartinkin-net-p-staraya-bumaga-tekstura-krasivo-1.jpg) no-repeat;
 }
 
 .wrapper {
@@ -46,7 +46,7 @@ body {
     animation-name: poem;
     animation-fill-mode: forwards;
     animation-duration: 2s;
-    background: url(/img/073254_1392697974.png);
+    background: url(../img/073254_1392697974.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
